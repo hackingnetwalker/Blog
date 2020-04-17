@@ -1,0 +1,215 @@
+baseurl = ""
+DefaultContentLanguage = "fr"
+title = "Hacking Netwalker"
+#theme = "beautifulhugo"
+theme = ["beautifulhugo", "hugo-notice"]
+metaDataFormat = "yaml"
+enableRobotsTXT = true
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+# exemple de google analytic --> googleAnalytics = "UA-46788371-4" --> site : https://developers.google.com/analytics/devguides/collection/analyticsjs --> http://blog.analytics-toolkit.com/2016/google-analytics-tracking-code-id-check-setup/
+enableEmoji = true
+enableGitInfo = true
+
+
+[Params]
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+#  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "An adventure in the world of cybersecurity"
+  mainSections = ["post","posts"]
+#  logo = "img/avatar-icon.png" # Expecting square dimensions
+  logo = "img/avatar-icon-hacking.png" # Expecting square dimensions
+#  favicon = "img/favicon.ico"
+#  favicon = "img/favicon-hackingNet.ico"
+  dateFormat = "January 2, 2006"
+  commit = "https://github.com/hackingnetwalker/Blog/tree/"
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Hacking Netwalker"
+  website = "https://hackingnetwalker.com"
+  email = "hackingnetwalker@gmail.com"
+#  facebook = "username"
+  github = "hackingnetwalker"
+#  gitlab = "username"
+#  bitbucket = "username"
+  twitter = "username"
+#  reddit = "username"
+#  linkedin = "username"
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"
+#  instagram = "username"
+#  youtube = "user/username" # or channel/channelname
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+#  vk = "username"
+#  paypal = "username"
+#  telegram = "username"
+#  500px = "username"
+#  codepen = "username"
+#  mastodon = "url"
+#  kaggle = "username"
+#  weibo = "username"
+#  slack = "username"
+#  twitch = "username"
+  patreon = "username"
+
+#[[menu.main]]
+#    name = "Blog"
+#    url = ""
+#    weight = 1
+#
+#[[menu.main]]
+#    name = "About"
+#    url = "page/about/"
+#    weight = 3
+#
+#[[menu.main]]
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 2
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
+#
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
+#
+#[[menu.main]]
+#    name = "Tags"
+#    url = "tags"
+#    weight = 3
+
+
+[languages]
+    [languages.en]
+        #languageName = "English"
+        languageCode = "en-us"
+        url = "/en/"
+
+    [languages.fr]
+        #languageName = "Français"
+        languageCode = "fr-ca"
+        url = "/fr/"
+
+
+[[languages.en.menu.main]]
+    name = "Blog"    
+    url = ""
+    weight = 1    
+
+[[languages.en.menu.main]]
+    name = "About me"    
+    url = "about/"
+    weight = 3
+
+[[languages.en.menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 4
+
+[[languages.en.menu.main]]
+    identifier = "My Project"
+    name = "Projects"    
+    weight = 2
+
+[[languages.en.menu.main]]
+    parent = "My Project"    
+    name = "Certifications"
+    url = "certifications/"
+    weight = 1
+
+[[languages.en.menu.main]]
+    parent = "My Project"
+    name = "CTF"
+    url = "ctf/"
+    weight = 2
+
+[[languages.en.menu.main]]
+    parent = "My Project"
+    name = "Others"
+    url = "others/"
+    weight = 3
+
+
+[[languages.fr.menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1    
+
+[[languages.fr.menu.main]]
+    name = "À Propos"    
+    url = "a-propos/"
+    weight = 3
+
+[[languages.fr.menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 4
+
+[[languages.fr.menu.main]]
+    identifier = "Mes Projets"
+    name = "Projets"    
+    weight = 2
+
+[[languages.fr.menu.main]]
+    parent = "Mes Projets"    
+    name = "Certifications"
+    url = "certifications/"
+    weight = 1
+
+[[languages.fr.menu.main]]
+    parent = "Mes Projets"
+    name = "CTF"
+    url = "ctf/"
+    weight = 2
+
+  [[languages.fr.menu.main]]
+    parent = "Mes Projets"
+    name = "Autres"
+    url = "autres/"
+    weight = 3  
+
+
