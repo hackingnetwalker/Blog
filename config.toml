@@ -1,4 +1,5 @@
 baseurl = ""
+IsMultiLingual = true
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = "true"
