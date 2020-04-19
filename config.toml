@@ -1,6 +1,6 @@
 baseurl = ""
+languageCode = "fr"
 DefaultContentLanguage = "fr"
-#languageCode = "fr"
 #defaultContentLanguageInSubdir = "true"
 title = "Hacking Netwalker"
 #theme = "beautifulhugo"
@@ -129,12 +129,14 @@ enableGitInfo = true
     [languages.en]
         #languageName = "English"
         languageCode = "en-us"
+        contentDir = "content/en"
         url = "/en/"
 
     [languages.fr]
         #languageName = "Français"
         languageCode = "fr-ca"
-#        url = "/fr/"
+        contentDir = "content/fr"
+        url = "/fr/"
 
 
 [[languages.en.menu.main]]
