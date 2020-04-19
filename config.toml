@@ -17,6 +17,7 @@ pygmentsCodefencesGuessSyntax = true
 # exemple de google analytic --> googleAnalytics = "UA-46788371-4" --> site : https://developers.google.com/analytics/devguides/collection/analyticsjs --> http://blog.analytics-toolkit.com/2016/google-analytics-tracking-code-id-check-setup/
 enableEmoji = true
 enableGitInfo = true
+languageCode = "fr"
 
 
 [Params]
