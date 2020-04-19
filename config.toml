@@ -127,12 +127,12 @@ enableGitInfo = true
     [languages.en]
         #languageName = "English"
         languageCode = "en-us"
-        url = "/en/"
+        url = "/"
 
     [languages.fr]
         #languageName = "Français"
         languageCode = "fr-ca"
-#        url = "/fr/"
+        url = "/"
 
 
 [[languages.en.menu.main]]
