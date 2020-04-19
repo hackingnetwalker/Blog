@@ -127,13 +127,13 @@ enableGitInfo = true
 [[languages.en.menu.main]]
     parent = "My Project"    
     name = "Blue Team"
-    url = "blue-team/"
+    url = "blue_team/"
     weight = 1
 
 [[languages.en.menu.main]]
     parent = "My Project"
     name = "Red Team"
-    url = "red-team/"
+    url = "red_team/"
     weight = 2
 
 [[languages.en.menu.main]]
@@ -150,7 +150,7 @@ enableGitInfo = true
 
 [[languages.fr.menu.main]]
     name = "À Propos"    
-    url = "a-propos/"
+    url = "a_propos/"
     weight = 3
 
 [[languages.fr.menu.main]]
@@ -166,13 +166,13 @@ enableGitInfo = true
 [[languages.fr.menu.main]]
     parent = "Mes Projets"    
     name = "Blue Team"
-    url = "blue-team/"
+    url = "blue_team/"
     weight = 1
 
 [[languages.fr.menu.main]]
     parent = "Mes Projets"
     name = "Red Team"
-    url = "red-team/"
+    url = "red_team/"
     weight = 2
 
   [[languages.fr.menu.main]]
