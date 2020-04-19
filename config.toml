@@ -1,6 +1,6 @@
 baseurl = ""
 DefaultContentLanguage = "fr"
-languageCode = "fr"
+#languageCode = "fr"
 defaultContentLanguageInSubdir = "true"
 title = "Hacking Netwalker"
 #theme = "beautifulhugo"
