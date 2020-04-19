@@ -127,12 +127,12 @@ languageCode = "fr"
 
 [languages]
     [languages.en]
-        languageName = "English"
+        #languageName = "English"
         languageCode = "en-us"
         url = "/en/"
 
     [languages.fr]
-        languageName = "Français"
+        #languageName = "Français"
         languageCode = "fr-ca"
         url = "/fr/"
 
