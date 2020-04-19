@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://hackingnetwalker.com/"
 #IsMultiLingual = true
 languageCode = "fr"
 DefaultContentLanguage = "fr"
