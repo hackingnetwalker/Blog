@@ -132,7 +132,7 @@ enableGitInfo = true
     [languages.fr]
         #languageName = "Français"
         languageCode = "fr-ca"
-        url = ""
+        url = "/fr/"
 
 
 [[languages.en.menu.main]]
@@ -176,7 +176,7 @@ enableGitInfo = true
 
 [[languages.fr.menu.main]]
     name = "Blog"
-    url = ""
+    url = "/fr/"
     weight = 1    
 
 [[languages.fr.menu.main]]
