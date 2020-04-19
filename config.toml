@@ -1,5 +1,4 @@
 baseurl = "https://hackingnetwalker.com/"
-#IsMultiLingual = true
 languageCode = "fr"
 DefaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = "true"
@@ -55,6 +54,9 @@ enableGitInfo = true
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
+[permalinks]
+   posts = "/:year/:month/:title/"
+
 [Author]
   name = "Hacking Netwalker"
   website = "https://hackingnetwalker.com"
@@ -86,44 +88,6 @@ enableGitInfo = true
 #  slack = "username"
 #  twitch = "username"
   patreon = "username"
-
-#[[menu.main]]
-#    name = "Blog"
-#    url = ""
-#    weight = 1
-#
-#[[menu.main]]
-#    name = "About"
-#    url = "page/about/"
-#    weight = 3
-#
-#[[menu.main]]
-#    identifier = "samples"
-#    name = "Samples"
-#    weight = 2
-#
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Big Image Sample"
-#    url = "post/2017-03-07-bigimg-sample"
-#    weight = 1
-#
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Math Sample"
-#    url = "post/2017-03-05-math-sample"
-#    weight = 2
-#
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Code Sample"
-#    url = "post/2016-03-08-code-sample"
-#    weight = 3
-#
-#[[menu.main]]
-#    name = "Tags"
-#    url = "tags"
-#    weight = 3
 
 
 [languages]
@@ -162,14 +126,14 @@ enableGitInfo = true
 
 [[languages.en.menu.main]]
     parent = "My Project"    
-    name = "Certifications"
-    url = "certifications/"
+    name = "Blue Team"
+    url = "blue-team/"
     weight = 1
 
 [[languages.en.menu.main]]
     parent = "My Project"
-    name = "CTF"
-    url = "ctf/"
+    name = "Red Team"
+    url = "red-team/"
     weight = 2
 
 [[languages.en.menu.main]]
@@ -181,7 +145,7 @@ enableGitInfo = true
 
 [[languages.fr.menu.main]]
     name = "Blog"
-#    url = "/fr/"
+    url = "/fr/"
     weight = 1    
 
 [[languages.fr.menu.main]]
@@ -201,14 +165,14 @@ enableGitInfo = true
 
 [[languages.fr.menu.main]]
     parent = "Mes Projets"    
-    name = "Certifications"
-    url = "certifications/"
+    name = "Blue Team"
+    url = "blue-team/"
     weight = 1
 
 [[languages.fr.menu.main]]
     parent = "Mes Projets"
-    name = "CTF"
-    url = "ctf/"
+    name = "Red Team"
+    url = "red-team/"
     weight = 2
 
   [[languages.fr.menu.main]]
@@ -216,5 +180,3 @@ enableGitInfo = true
     name = "Autres"
     url = "autres/"
     weight = 3  
-
-
