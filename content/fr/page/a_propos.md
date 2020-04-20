@@ -2,6 +2,7 @@
 title: "À propos"
 subtitle: Qui je suis?
 date: 2020-04-19T19:42:32-04:00
+type: page
 draft: true
 ---
 
