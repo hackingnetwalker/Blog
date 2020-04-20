@@ -94,13 +94,13 @@ enableGitInfo = true
     [languages.en]
         #languageName = "English"
         languageCode = "en-us"
-#        contentDir = "content/en"
+        contentDir = "content/en"
         url = "/en/"
 
     [languages.fr]
         #languageName = "Français"
         languageCode = "fr-ca"
-#        contentDir = "content/fr"
+        contentDir = "content/fr"
         url = "/fr/"
 
 
