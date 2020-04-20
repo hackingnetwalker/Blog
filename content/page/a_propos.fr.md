@@ -14,7 +14,7 @@ draft: true
 <p class="about-text">
 <!--<span class="fa fa-graduation-cap fa-lg about-icon"></span>-->
 <span class="fa fa-graduation-cap about-icon"></span>
-<!--Obtention du certificat en <b>cybersécurité des réseaux informatiques</b> à Polytechnique Montréal.</p>-->
+
 </p>
 
 <p class="about-text">
